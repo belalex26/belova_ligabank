@@ -1,0 +1,58 @@
+.footer {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #F6F7FF;
+    color: #707C87;
+}
+
+.footer__nav-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer__nav-link {
+    font-size: 16px;
+    color: #1F1E25;
+    text-decoration: none;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.footer__sms-link {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    color: #1F1E25;
+    text-decoration: none;
+
+    &::before {
+        position: absolute;
+        content: '';
+        background: url(../../images/phone.svg);
+        width: 10px;
+        height: 16px;
+        top: 0;
+        left: 0;
+
+    }
+}
+
+.footer__phone-link {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    color: #1F1E25;
+    text-decoration: none;
+
+    &::before {
+        position: absolute;
+        content: '';
+        background: url(../../images/phone-pipe.svg);
+        width: 16px;
+        height: 16px;
+        top: 0;
+        left: 0;
+
+    }
+}

@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    align-items: baseline;
+}
+
+.menu__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 43px;
+}
+
+.menu__item {
+    padding: 13px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #1F1E25;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu__link--active {
+    color: #2C36F2;
+}
+

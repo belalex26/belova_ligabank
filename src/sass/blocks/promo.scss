@@ -1,3 +1,48 @@
 .promo {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    background:
+        url('../../images/gradient-bg.png') no-repeat bottom,
+        #2C36F2;
+    padding-top: 102px;
+    padding-bottom: 129px;
+}
+
+.promo__title {
+    position: relative;
+    font-size: 54px;
+    color: #F6F7FF;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 185px;
+    padding-bottom: 6px;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 398px;
+        height: 240px;
+        background: url('../../images/cards.png') no-repeat center;
+        top: -18px;
+        left: 639px;
+    }
+}
+
+.promo__subtitle {
+    color: #E0E1EA;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 185px;
+    padding-bottom: 49px;
+    margin: 0;
+}
+
+.promo__btn {
+    background: #F6F7FF;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    color: #1F1E25;
+    padding: 16px 36px;
+    margin-left: 185px;
 }

@@ -4,10 +4,9 @@ import Menu from '../menu/menu';
 const Header = () => {
   return (
     <header className="header">
+      <div className="container">
         <Menu />
-        <a className="header__navigation-bar" href="#">
-            Войти в Интернет-банк
-        </a>
+      </div>
     </header>
   );
 };

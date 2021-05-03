@@ -1,6 +1,10 @@
 .social-bar {
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin-left: -15px;
+    margin-top: 17px;
 }
 
 .social-bar__link {

@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '../header/header';
-import Main from '../promo/promo';
+import Promo from '../promo/promo';
+import Convert from '../converter/converter';
 import Footer from '../footer/footer';
 
 const App = () => {
     return (
       <>
         <Header />
-        <Main />
+        <Promo />
+        <Convert />
         <Footer />
       </>
     );

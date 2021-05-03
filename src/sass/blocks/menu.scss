@@ -1,6 +1,7 @@
 .menu {
     display: flex;
     align-items: baseline;
+    padding-left: 16px;
 }
 
 .menu__list {
@@ -25,3 +26,21 @@
     color: #2C36F2;
 }
 
+.menu__navigation-bar {
+    position: relative;
+    display: block;
+    color: #1F1E25;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 162px;
+
+    &::before {
+        position: absolute;
+        content: '';
+        background: url('../../images/entry.svg') no-repeat center;
+        width: 20px;
+        height: 22px;
+        top: -1px;
+        left: -28px;
+    }
+}

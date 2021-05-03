@@ -1,25 +1,4 @@
 .header {
-    font-family: 'Roboto', 'Arial', sans-serif;
     background-color: #F6F7FF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 98px;
-    padding-right: 98px;
-    padding-top: 7px;
-}
-
-.header__navigation-bar {
-    position: relative;
-    color: #1F1E25;
-    font-size: 16px;
-    text-decoration: none;
-
-    &::before {
-        position: absolute;
-        content: '';
-        background: url('../../images/entry.svg') no-repeat center;
-        width: 20px;
-        height: 22px;
-    }
+    padding: 7px 0;
 }

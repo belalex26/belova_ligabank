@@ -32,6 +32,9 @@ const Menu = () => {
             </a>
           </li>
       </ul>
+      <a className="menu__navigation-bar" href="#">
+            Войти в Интернет-банк
+      </a>
     </nav>
   );
 };

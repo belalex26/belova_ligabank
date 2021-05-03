@@ -1,14 +1,35 @@
 .footer {
-    font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 12px;
     font-weight: 400;
     background-color: #F6F7FF;
     color: #707C87;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.footer__content {
+    padding-left: 13px;
+    display: grid;
+    grid-template-columns: 262px 173px 177px 166px 125px;
+    grid-column-gap: 72px;
+    align-items: start;
+}
+
+.footer__info {
+    margin-top: 5px;
+}
+
+.footer__info-text {
+    line-height: 16.8px;
 }
 
 .footer__nav-list {
     list-style: none;
     padding-left: 0;
+}
+
+.footer__nav-item {
+    padding-bottom: 9px;
 }
 
 .footer__nav-link {
@@ -17,6 +38,12 @@
     text-decoration: none;
     line-height: 23px;
     font-weight: 500;
+    line-height: 22.4px;
+}
+
+.footer__sms {
+    margin-top: 15px;
+    margin-left: 8px;
 }
 
 .footer__sms-link {
@@ -32,10 +59,20 @@
         background: url(../../images/phone.svg);
         width: 10px;
         height: 16px;
-        top: 0;
-        left: 0;
+        top: 2px;
+        left: -29px;
 
     }
+}
+
+.footer__sms-info {
+    line-height: 16.8px;
+    margin-top: 4px;
+}
+
+.footer__phone {
+    margin-top: 15px;
+    margin-left: 38px;
 }
 
 .footer__phone-link {
@@ -51,8 +88,13 @@
         background: url(../../images/phone-pipe.svg);
         width: 16px;
         height: 16px;
-        top: 0;
-        left: 0;
+        top: 2px;
+        left: -32px;
 
     }
+}
+
+.footer__phone-info {
+    line-height: 16.8px;
+    margin-top: 4px;
 }

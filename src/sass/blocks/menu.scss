@@ -1,7 +1,6 @@
 .menu {
     display: flex;
     align-items: baseline;
-    padding-left: 16px;
 }
 
 .menu__list {
@@ -20,6 +19,15 @@
     color: #1F1E25;
     font-size: 16px;
     font-weight: 400;
+
+    &:hover {
+        color: #2C36F2;
+    }
+    
+      &:focus,
+      &:active {
+        color: #2C36F2;
+    }
 }
 
 .menu__link--active {
@@ -32,7 +40,7 @@
     color: #1F1E25;
     font-size: 16px;
     text-decoration: none;
-    margin-left: 162px;
+    margin-left: 160px;
 
     &::before {
         position: absolute;
@@ -42,5 +50,22 @@
         height: 22px;
         top: -1px;
         left: -28px;
+    }
+
+    &:hover {
+        color: #2C36F2;
+    }
+    
+      &:focus,
+      &:active {
+        color: #2C36F2;
+    }
+}
+
+.menu__navigation-bar:hover,
+.menu__navigation-bar:focus,
+.menu__navigation-bar:active {
+    &::before {
+        background: url('../../images/entry-hover.svg') no-repeat center;
     }
 }

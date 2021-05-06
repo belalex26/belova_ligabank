@@ -1,16 +1,21 @@
 import React from 'react';
 
+import Header from '../header/header';
 import Promo from '../promo/promo';
-import Converter from '../converter/converter';
-
+import Convert from '../converter/converter';
+import Footer from '../footer/footer';
 
 const Main = () => {
-    return (
-      <main className="main">
-        <Promo />
-        <Converter />
-      </main>
-    );
-  };
+  return (
+      <>
+        <Header />
+        <main className="main">
+            <Promo />
+            <Convert />
+        </main>
+        <Footer />
+    </>
+  );
+};
 
 export default Main;

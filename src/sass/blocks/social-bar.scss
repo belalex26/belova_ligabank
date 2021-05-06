@@ -5,33 +5,21 @@
     padding-left: 0;
     margin-left: -15px;
     margin-top: 17px;
+
 }
 
 .social-bar__link {
     text-decoration: none;
     display: block;
+    position: relative;
 }
 
-.social-bar__fb {
-    background: url(../../images/fb.svg) no-repeat center;
-    width: 9px;
-    height: 16px;
+.social__icon {
+    fill: #1F1E25;
 }
 
-.social-bar__insta {
-    background: url(../../images/insta.svg) no-repeat center;
-    width: 16px;
-    height: 16px;
-}
-
-.social-bar__tw {
-    background: url(../../images/twitter.svg) no-repeat center;
-    width: 16px;
-    height: 16px;
-}
-
-.social-bar__youtube {
-    background: url(../../images/youtube.svg) no-repeat center;
-    width: 16px;
-    height: 16px;  
+.social-bar__link:hover > .social__icon,
+.social-bar__link:active > .social__icon,
+.social-bar__link:focus > .social__icon {
+    fill: #2C36F2;
 }

@@ -15,23 +15,24 @@ const Footer = () => {
                     </p>
                 </div>
                 <ul className="footer__nav-list">
+                    
                     <li className="footer__nav-item">
-                        <a className="footer__nav-link" href="#">
+                        <a className="footer__nav-link" href="/services">
                             Услуги
                         </a>
                     </li>
                     <li className="footer__nav-item">
-                        <a className="footer__nav-link" href="#">
+                        <a className="footer__nav-link" href="/credit">
                             Рассчитать кредит
                         </a>
                     </li>
                     <li className="footer__nav-item">
-                        <a className="footer__nav-link" href="#">
+                        <a className="footer__nav-link" href="/contacts">
                             Контакты
                         </a>
                     </li>
                     <li className="footer__nav-item">
-                        <a className="footer__nav-link" href="#">
+                        <a className="footer__nav-link" href="/support">
                             Задать вопрос
                         </a>
                     </li>
@@ -45,8 +46,8 @@ const Footer = () => {
                     <p className="footer__phone-info">Бесплатный для всех городов России</p>
                 </div>
                 <div className="fooler__socials">
-            <SocialBar />
-        </div>
+                    <SocialBar />
+                </div>
             </div>
         </div>
     </footer>
